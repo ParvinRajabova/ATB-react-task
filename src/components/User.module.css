@@ -1,0 +1,44 @@
+.userList{
+    list-style-type: none;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.userList .userItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    transition: all 0.3s;
+    min-width: 50%;
+    margin-bottom: 24px;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.08);
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.08);
+}
+
+.userList .userItem:hover{
+    color: rgb(39, 148, 121);
+}
+
+.userList .userItem button {
+    background-color: rgb(39, 148, 121);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 20px;
+    font-size: 16px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.userList .userItem:hover button,
+.userList .userItem button:hover{
+    background-color: rgb(32, 122, 100);
+    color: white;
+}
