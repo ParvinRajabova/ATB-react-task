@@ -42,3 +42,10 @@
     background-color: rgb(32, 122, 100);
     color: white;
 }
+
+@media screen and (max-width: 767px) {
+ .userItem{
+     min-width: 100%;
+     width: 100%;
+ }
+}
